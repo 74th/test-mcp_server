@@ -1,0 +1,9 @@
+{
+    "python.languageServer": "Pylance",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none",
+        "reportShadowedImports": "none"
+    },
+    "mypy.dmypyExecutable": "${workspaceFolder}/.venv/bin/dmypy",
+    "circuitpython.board.version": null
+}

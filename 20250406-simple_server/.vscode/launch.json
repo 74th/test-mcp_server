@@ -1,12 +1,43 @@
 {
     "version": "0.2.0",
     "configurations": [
-
         {
-            "name": "run",
+            "name": "sample",
             "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/main.py",
+            // "module": "fastmcp",
+            // "program": "${workspaceFolder}/main.py",
+            "program": "${workspaceFolder}/.venv/bin/fastmcp",
+            "args": [
+                "dev",
+                "sample.py"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "first",
+            "type": "debugpy",
+            "request": "launch",
+            // "module": "fastmcp",
+            // "program": "${workspaceFolder}/main.py",
+            "program": "${workspaceFolder}/.venv/bin/fastmcp",
+            "args": [
+                "dev",
+                "first.py"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "read_ds",
+            "type": "debugpy",
+            "request": "launch",
+            // "module": "fastmcp",
+            // "program": "${workspaceFolder}/main.py",
+            "program": "${workspaceFolder}/.venv/bin/fastmcp",
+            "args": [
+                "dev",
+                "read_ds.py"
+            ],
             "console": "integratedTerminal"
         }
     ]

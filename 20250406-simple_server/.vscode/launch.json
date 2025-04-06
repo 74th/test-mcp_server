@@ -7,7 +7,7 @@
             "request": "launch",
             // "module": "fastmcp",
             // "program": "${workspaceFolder}/main.py",
-            "program": "${workspaceFolder}/.venv/bin/fastmcp",
+            "program": "${workspaceFolder}/.venv/bin/mcp",
             "args": [
                 "dev",
                 "sample.py"
@@ -20,7 +20,7 @@
             "request": "launch",
             // "module": "fastmcp",
             // "program": "${workspaceFolder}/main.py",
-            "program": "${workspaceFolder}/.venv/bin/fastmcp",
+            "program": "${workspaceFolder}/.venv/bin/mcp",
             "args": [
                 "dev",
                 "first.py"
@@ -33,7 +33,7 @@
             "request": "launch",
             // "module": "fastmcp",
             // "program": "${workspaceFolder}/main.py",
-            "program": "${workspaceFolder}/.venv/bin/fastmcp",
+            "program": "${workspaceFolder}/.venv/bin/mcp",
             "args": [
                 "dev",
                 "read_ds.py"

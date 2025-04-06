@@ -6,7 +6,7 @@
                 "--directory",
                 "/Users/nnyn/ghq/github.com/74th/test-mcp_server/20250406-simple_server",
                 "run",
-                "fastmcp",
+                "mcp",
                 "run",
                 "read_ds.py"
             ]

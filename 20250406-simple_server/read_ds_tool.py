@@ -28,14 +28,3 @@ mcp.add_resource(Doc(
     description="マイコンCH32V003のリファレンスマニュアル",
     mime_type="plain/text",
 ))
-
-@mcp.tool(
-    name="CH32V003 Datasheet",
-    description="マイコンCH32V003のデータシート",
-)
-def read_datasheet() -> str:
-    file_name = "ch32v003-ds.txt"
-    file_path = DATASHEET_DIR / file_name
-    with open(file_path, "r") as f:
-        content = f.read()
-    return content
